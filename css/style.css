@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Raleway', sans-serif;
+  color: #e0e1e3;
+  background: url(../img/default_background.jpg) no-repeat center center fixed;
+  background-size: cover; }
+
+.loading {
+  position: absolute;
+  right: 40%;
+  top: 30%;
+  text-align: center;
+  display: inline-block; }
+
+main {
+  position: relative;
+  top: -50%;
+  left: 30%;
+  overflow: auto;
+  transition: top 2s cubic-bezier(0.65, 0.05, 0.36, 1);
+  height: 50%;
+  width: 40%;
+  min-width: 500px;
+  background-color: #1f222a;
+  border-radius: 5px; }
+
+.wrapper {
+  margin-top: 1.5em;
+  margin-left: 2em;
+  margin-right: 2em; }
+  .wrapper h3 {
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #373B46;
+    padding-bottom: 1.5em; }
+
+.icon-temp {
+  display: flex; }
+
+.icon {
+  display: inline-block;
+  width: 30%;
+  margin-top: 0; }
+  .icon .st0 {
+    fill: #373B46 !important; }
+
+.master-icon {
+  width: 20%; }
+
+.temp {
+  font-size: 6em;
+  display: inline-block;
+  margin: 0;
+  margin-left: 0.3em;
+  margin-right: 0.1em; }
+  .temp span {
+    background: none; }
+
+.change-temp {
+  font-size: 1.5em;
+  color: #373B46;
+  border: none;
+  background: none;
+  border-left: 1px solid #373B46;
+  margin-left: 1.5em;
+  height: 1.5em;
+  cursor: pointer;
+  margin-top: 3%; }
+
+.more-info {
+  display: flex;
+  margin-top: 2em;
+  margin-left: 1em; }
+  .more-info figure {
+    display: inline-block;
+    margin: 0; }
+  .more-info p {
+    margin: 0;
+    display: inline-block; }
+
+.sub-container {
+  display: flex;
+  width: 33.3%;
+  justify-content: space-around; }
+  .sub-container p {
+    font-size: 1.5em;
+    margin-top: 0.5em; }
+
+.wind-speed p {
+  margin-left: 0.5em; }
+
+.chance-of-rain p {
+  margin-left: -1em; }
+
+.chance-of-snow p {
+  margin-left: -1em; }
+
+footer {
+  text-align: center;
+  font-size: 0.5em;
+  display: block;
+  position: absolute;
+  bottom: 1%;
+  right: 1%; }
+  footer p {
+    margin: 0;
+    margin-top: 3em; }
+    footer p a {
+      color: #fafafa;
+      text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
